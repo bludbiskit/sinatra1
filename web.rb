@@ -25,13 +25,18 @@ DataMapper.finalize
 # automatically create the post table
 Post.auto_upgrade!
 
-get '/new' do
+get '/' do
 	erb :new
 end
 
 post '/create' do
 	#replace this
-	return params.to_s
+  @obj = Post.new
+  @obj.title = params[:title]
+  @obj.body = params[:body]
+  @obj.save
+  @posts = Post.all
+  erb :success
 end
 
 get '/' do
