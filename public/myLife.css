@@ -1,6 +1,6 @@
 .jumbotron {
     position: relative;
-    background: imgae-url("https://media.giphy.com/media/13O5TVc2xIagow/giphy.gif") center center;
+    background: url("https://media.giphy.com/media/13O5TVc2xIagow/giphy.gif") center center;
     width: 100%;
     height: 100%;
     background-size: cover;
