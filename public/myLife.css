@@ -1,0 +1,8 @@
+.jumbotron {
+    position: relative;
+    background: #000 url("https://i.pinimg.com/originals/ca/f7/eb/caf7eb1f3de150597f7b531a31f6572e.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
